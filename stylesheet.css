@@ -1,0 +1,45 @@
+.calculatorContainer {
+    display:flex;
+    flex-direction: column;
+
+
+    background-color:rgb(84, 159, 46);
+    height: 500px;
+    width: 300px;
+
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    margin: 200px;
+}
+
+.btnRow, .display {
+
+    flex: 1;
+    align-items: stretch;
+    display:flex;
+    justify-content:stretch;
+    margin:0;
+    width:auto;
+}
+
+div > .display {
+    background: black;
+    color:yellowgreen;
+    font-size:50px;
+}
+
+button {
+    flex: 1;
+    width: auto;
+    margin: 2px;
+    border-width: 4px;
+    border-radius: 25px;
+    background-color:black;
+    color:yellowgreen;
+
+    border-color: rgb(237, 176, 85);
+}
+
